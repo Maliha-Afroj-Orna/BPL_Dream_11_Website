@@ -1,8 +1,9 @@
 import React from 'react';
+import bannerImg from '../../assets/bg-shadow.png';
 
 const Banner = () => {
     return (
-        <div className='min-h-screen bg-linear-to-r from-purple-500 to-purple-300'>
+        <div className="min-h-[70vh] rounded-2xl bg-[#131313]" style={{ backgroundImage: `url(${bannerImg})`}}>
             Banner
         </div>
     );

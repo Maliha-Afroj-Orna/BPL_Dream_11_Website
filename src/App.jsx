@@ -4,10 +4,10 @@ import Navbar from "./Components/navbar/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="max-w-7xl mx-auto">
       <Navbar />
       <Banner />
-    </>
+    </div>
   );
 }
 
